@@ -1,0 +1,71 @@
+body {
+	width: 100%;
+	margin: 0;
+}
+
+.hero,
+.sidekick,
+footer {
+	width: 100%;
+	margin: 0;
+	height: 300px;
+
+}
+
+header {
+	/*border: 2px solid red;*/
+}
+
+nav {
+	/*border: 2px solid blue;*/
+	width: 43em;
+	margin: 0 auto;
+}
+
+nav img {
+	width: 45px;
+	height: 45px;
+	margin-top: 1em;
+}
+
+nav ul {
+	position: relative;
+	bottom: 2em;
+	text-align: right;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav ul > :first-child {
+	font-weight: bold;
+}
+
+nav ul li.gray {
+	color: #aaa;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-right: 1em;
+	list-style-type: none;
+}
+
+.hero {
+	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.sidekick {
+	border: 2px solid yellow;
+}
+
+footer {
+	border: 2px solid purple;
+}
+
