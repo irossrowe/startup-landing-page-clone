@@ -1,6 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	width: 100%;
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
 }
 
 .hero,
@@ -67,6 +75,15 @@ nav ul li {
 	list-style-type: none;
 }
 
+nav ul li a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+nav ul li a:hover {
+	color: #000;
+}
+
 /* HERO */
 
 .hero {
@@ -106,6 +123,10 @@ nav ul li {
 	border-radius: 5px;
 	padding: 1em 2em;
 	
+}
+
+.hero-head button:hover {
+	background-color: orange;
 }
 
 /* SIDEKICK */
