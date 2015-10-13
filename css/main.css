@@ -12,6 +12,17 @@ footer {
 
 }
 
+.hero-head,
+.sidekick-content,
+.foot-content {
+	width: 38em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+/* HEADER */
+
 header {
 	background-color: #fff;	
 	width: 100%;
@@ -21,7 +32,6 @@ header {
 }
 
 header nav {
-	/*position: fixed;*/
 	width: 43rem;
 	height: 4.375rem;
 	margin: 0 auto;
@@ -57,6 +67,8 @@ nav ul li {
 	list-style-type: none;
 }
 
+/* HERO */
+
 .hero {
 	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
 	background-position: center bottom;
@@ -67,10 +79,6 @@ nav ul li {
 }
 
 .hero-head {
-	width: 38em;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
 	padding-top: 16rem;
 	line-height: 1em;
 }
@@ -100,15 +108,13 @@ nav ul li {
 	
 }
 
+/* SIDEKICK */
+
 .sidekick {
 	height: 32.938rem;
 }
 
 .sidekick-content {
-	width: 38em;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
 	padding-top: 4rem;
 	font-size: 1.8em;
 	font-family: 'Pontano Sans', sans-serif;
@@ -131,7 +137,41 @@ nav ul li {
 
 }
 
+/* FOOTER */
+
 footer {
-	border: 2px solid purple;
+	font-family: 'Roboto', sans-serif;
 }
+
+.foot-content hr {
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.foot-content .ico {
+	/*border: 1px solid gray;
+	border-radius: 50%;*/
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	margin: 0 1rem;
+}
+
+.foot-content .ico img {
+	width: 1em;
+	height: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
